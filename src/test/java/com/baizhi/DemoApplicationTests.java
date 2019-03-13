@@ -19,6 +19,7 @@ public class DemoApplicationTests {
     public void contextLoads() {
         List<Tu> tus = tm.selectAll();
         System.out.println(123);
+        System.out.println(456);
         System.out.println(tus);
     }
 
